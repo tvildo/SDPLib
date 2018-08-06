@@ -1,14 +1,14 @@
-# Nuget Package
-
-https://www.nuget.org/packages/SDPLib/1.0.0
-
 # SDP: Session Description Protocol Library for .Net
 
 library uses System.IO.Pipelines: High performance IO in .NET
 
+# Nuget Package
+
+https://www.nuget.org/packages/SDPLib/1.0.0
+
 # Read SDP
 
-```
+```csharp
 var expected = 
 @"v=0
 o=jdoe 2890844526 2890842807 IN IP4 10.47.16.5
@@ -30,7 +30,7 @@ var value = SDPSerializer.ReadSDP(Encoding.UTF8.GetBytes(expected));
 
 # Write SDP:
 
-```
+```csharp
 var sdp = new SDP()
 {
     Version = 1,
