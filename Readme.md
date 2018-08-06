@@ -1,3 +1,7 @@
+# Nuget Package
+
+https://www.nuget.org/packages/SDPLib/1.0.0
+
 # SDP: Session Description Protocol Library for .Net
 
 library uses System.IO.Pipelines: High performance IO in .NET
