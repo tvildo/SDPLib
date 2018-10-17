@@ -4,7 +4,7 @@ library uses System.IO.Pipelines: High performance IO in .NET
 
 # Nuget Package
 
-https://www.nuget.org/packages/SDPLib/1.0.0
+https://www.nuget.org/packages/SDPLib
 
 # Read SDP
 
